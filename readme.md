@@ -1,7 +1,6 @@
-# **E-Commerce Microservices Application**
+### **Product-Customer Microservices (java+springboot+mysql+swaggerui)**
 
-This is a **Spring Boot-based microservices project** for an **E-Commerce System**.  
-
+Spring Boot-based microservices project for an E-Commerce System.  
 It consists of the following microservices:  
 
 - **Product Service** - Manages product-related operations.  
@@ -14,23 +13,23 @@ It consists of the following microservices:
 
 ---
 
-## **🛠 Technologies Used**
+#### * Technologies Used*
 
-- **Spring Boot**  
+- Spring Boot
 
-- **Spring Cloud Eureka (Service Discovery)**  
+- Spring Cloud Eureka (Service Discovery)
 
-- **Spring Web (RestTemplate for Inter-Service Communication)**  
+- Spring Web (RestTemplate for Inter-Service Communication) 
 
-- **MySQL (Database)**  
+- MySQL  
 
-- **Maven (Build Tool)**  
+- Maven(Build Tool)
 
-- **Swagger (API Documentation)**
+- Swagger (API Documentation)
 
 ---
 
-## **📌 Microservices Overview**
+#### * Microservices Overview*
 
 Each microservice runs independently on a different port and communicates with others using **REST APIs**.
 
@@ -50,9 +49,9 @@ Each microservice runs independently on a different port and communicates with o
 
 ---
 
-## **📌 API Endpoints**
+#### * API Endpoints*
 
-### **🔹 Product Service (`http://localhost:8081`)**
+##### * Product Service (`http://localhost:8081`)*
 
 | Method | Endpoint         | Description |
 
@@ -66,7 +65,7 @@ Each microservice runs independently on a different port and communicates with o
 
 ---
 
-### **🔹 Customer Service (`http://localhost:8082`)**
+##### * Customer Service (`http://localhost:8082`)*
 
 | Method | Endpoint              | Description |
 
@@ -82,7 +81,7 @@ Each microservice runs independently on a different port and communicates with o
 
 ---
 
-### **🔹 Order Service (`http://localhost:8083`)**
+### * Order Service (`http://localhost:8083`)*
 
 | Method | Endpoint                | Description |
 
@@ -112,9 +111,9 @@ Order Service API:http://localhost:8083/swagger-ui.html
 ```
 
 
-## **🚀 Setup Instructions**
+#### ** Setup Instructions**
 
-### **1️⃣ Clone the Repository**
+### **1 Clone the Repository**
 
 ```sh
 
